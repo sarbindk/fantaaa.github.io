@@ -215,7 +215,8 @@ nav i{
 }
 
 .lemon{
-    top: -30%;
+    
+    top: -110%!important;
     position: absolute;
     left: 50%!important;
     width: 25vw;
