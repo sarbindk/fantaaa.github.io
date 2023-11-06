@@ -41,8 +41,7 @@ var tl2 = gsap.timeline({scrollTrigger:{
 
 tl2.from(".lemon1",{
     rotate: "-90deg",
-    left: "-100%",
-    top: "110%"
+    
 }, 'ca')
 tl2.from("#cocacola",{
     rotate: "-90deg",
