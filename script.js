@@ -48,6 +48,7 @@ tl2.from("#cocacola",{
 
 tl2.from(".lemon2",{
     rotate: "90deg",
+    left:"-100%",
 }, 'ca')
 tl2.from("#pepsi",{
     rotate: "90deg",
