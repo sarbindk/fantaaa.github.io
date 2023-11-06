@@ -199,8 +199,8 @@ nav i{
     position: absolute;
     width: 60%;
     left: 50%;
-    transform: translate(-50%, 0%);
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    transform: translate(-50%, 0%) translate3d(0px, 0px, 0px) rotate(0deg);
+
 
 }
 
@@ -209,16 +209,15 @@ nav i{
     position: absolute;
     width: 85%;
     left: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%) translate3d(0px, 0px, 0px) rotate(0deg);
     /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
 
 }
 
 .lemon{
-    
-    top: -50%;
+    top: -30%;
     position: absolute;
-    left: 50%!important;
+    left: 50%;
     width: 25vw;
     transform: translate(-50%, 0%);
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
